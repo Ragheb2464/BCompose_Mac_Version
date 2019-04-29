@@ -31,6 +31,8 @@
      ./main  --model_dir=? --current_dir=?
     ```
 ## Tune
-  - This options are currently unavailable.
+  - These options are currently unavailable.
 
+## Notice
+  - This is a precompiled version of BCompose.
 #TBC
