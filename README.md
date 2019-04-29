@@ -34,5 +34,9 @@
   - These options are currently unavailable.
 
 ## Notice
-  - This is a precompiled version of BCompose.
+  - This is a precompiled version of BCompose;
+  - The code will require 8 cores;
+  - The pre-compiled example is for Stochastic Network Design Problems;
+  - Some features may not be fully functional.
+
 #TBC
