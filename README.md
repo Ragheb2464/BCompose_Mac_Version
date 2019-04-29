@@ -31,7 +31,6 @@
      ./main  --model_dir=? --current_dir=?
     ```
 ## Tune
- - Use the header files named solver_settings.h to control some features of the BCompose.
   - This options are currently unavailable.
 
 #TBC
