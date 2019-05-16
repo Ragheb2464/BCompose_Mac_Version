@@ -17,8 +17,8 @@ import subprocess
 logger.basicConfig(level=logger.INFO,
                    format='[%(asctime)s]: [%(levelname)s]: %(message)s')
 
-model_files_path = "/Users/raghebrahmaniani/BCompose/models"
-pwd = "/Users/raghebrahmaniani/BCompose"
+model_files_path = "models"
+pwd = "/Users/raghebrahmaniani/BCompose_Mac_Version"
 
 
 subprocess.call('rm' + " " + pwd + '/opt_model_dir/*', shell=True)
