@@ -6,21 +6,11 @@
     - Boost libraries
     - Python 2.6.6
     - Mac OS (e.g., Mojave)
-    - Processor 2.9 GHz Intel Core i7
+    - Processor type x86_64
 ## How It Works
   - BCompose is to solve pre-decomposed MILP problems. This means that the user needs to export the master and subproblem(s) following the provided guidelines.
     - This gives the user a full flexibility in decomposing the problem and exploiting its special structures.
-## Examples
-  - Examples on how to export the pre-decomposed problems are available for the following problems:
-    - Fixed-charge capacitated facility location problem:
-      - stochastic/deterministic version;
-      - complete/incomplete recourse version;
-      - strong/weak formulation;
-    - Stochastic fixed-charge multi-commodity capacitated network design problem;
-      - strong/weak formulation;
-    - Stochastic network interdiction problem;
-    - Covering location problem;
-  - All the examples are created using C++.
+
 ## How To Run
   - After exporting the proper formulations for the master (MP) and subproblem (SP) into the "models/" directory, run following command:
     ```
@@ -37,6 +27,5 @@
   - This is a precompiled version of BCompose;
   - The code will require 8 cores;
   - The pre-compiled example is for Stochastic Network Design Problems;
-  - Some features may not be fully functional.
 
 #TBC
