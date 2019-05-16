@@ -1,6 +1,6 @@
 # How To Use
 ## Minimum Requirements
-  - Mac
+### Mac
     - g++ 8.2 or Apple LLVM version 10.0.1 (clang-1001.0.46.4)
     - IloCplex 12.8.0.0
     - Boost libraries
@@ -10,6 +10,7 @@
 ## How It Works
   - BCompose is to solve pre-decomposed MILP problems. This means that the user needs to export the master and subproblem(s) following the provided guidelines.
     - This gives the user a full flexibility in decomposing the problem and exploiting its special structures.
+  - The 'models' folder contains a pre-compiled example of Stochastic Network Design Problems, i.e., r05-9-0.8-16. 
 
 ## How To Run
   - After exporting the proper formulations for the master (MP) and subproblem (SP) into the "models/" directory, run following command:
