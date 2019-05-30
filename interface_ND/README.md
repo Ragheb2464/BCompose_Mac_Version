@@ -18,4 +18,4 @@
       python run_me_to_export_models.py
     ```
 ## Contact
-  - Please contact me directly at **ragheb.rahmaniani{AT}gmail{DOT}com** if you had any question 
+  - Please contact me directly at **ragheb.rahmaniani{AT}gmail{DOT}com** if you had any questions.

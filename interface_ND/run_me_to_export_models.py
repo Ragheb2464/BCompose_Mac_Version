@@ -36,10 +36,10 @@ def Cleaner():
 
 def Compiler():
     # set the directories where IloCplex's libs can be found
-    CONCERTDIR = '/Applications/CPLEX_Studio129/concert/include/'
-    CPLEXDIR = '/Applications/CPLEX_Studio129/cplex/include/'
-    CPLEXLIB = '/Applications/CPLEX_Studio129/cplex/lib/x86-64_osx/static_pic/'
-    CONCERTLIB = '/Applications/CPLEX_Studio129/concert/lib/x86-64_osx/static_pic/'
+    CONCERTDIR = '/path/to/concert/include/'
+    CPLEXDIR = '/path/to/cplex/include/'
+    CPLEXLIB = '/path/to/cplex/lib/x86-64_osx/static_pic/'
+    CONCERTLIB = '/path/to/concert/lib/x86-64_osx/static_pic/'
     # compiler
     GCC = 'g++'
     # set the compiler flags
